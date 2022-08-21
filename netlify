@@ -1,0 +1,12 @@
+function isWindy(speed) {
+  if (speed >= 5) {
+    alert("it is windy");
+  } else {
+    alert("it is not windy");
+  }
+}
+
+let currentSpeed = 6;
+isWindy(currentSpeed);
+isWindy(10);
+isWindy(3);
